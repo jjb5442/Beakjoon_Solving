@@ -12,11 +12,11 @@ int main(){
     if(minpulse+ inpulse > maxpulse){
         mincount = -1;
         printf("%d", mincount);
-        return 0;}
+        return 0;
+        }
 
     while (excount<exercisetime)
     {
-        
         if(curpulse + inpulse <= maxpulse){
             curpulse = curpulse + inpulse;
             // if(curpulse + inpulse > maxpulse) curpulse = maxpulse;
@@ -30,8 +30,9 @@ int main(){
             
             else {
                 curpulse = curpulse - depulse;
-                mincount+=1;
-        }
+                mincount+=1;  
+                
+         }
     }
     }
     
