@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /*
 problem website
-https://www.acmicpc.net/problem/1362
+https://www.acmicpc.net/problem/2577
 
 [Main Points]
 1. Name the variable 'multi' and get the value A X B X C
